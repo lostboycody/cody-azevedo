@@ -72,9 +72,11 @@ p {
 }
 .bg-video2 {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	background-repeat: no-repeat;
+	padding: 0px;
 	overflow: hidden;
+	top: 300px;
 	bottom: 0px;
 	left: 0px;
 	z-index: -1;
