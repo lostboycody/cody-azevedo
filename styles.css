@@ -1,17 +1,17 @@
 body {
 	background-color: #007765;
-	color: white;
+	color: #007765;
 	cursor: default;
+	margin: 0px;
+	padding: 0px;
 }
 #title {
 	font-family: 'Exo', serif;
 	font-size: 100px;
-	margin-top: 250px;
-	border-top: 20px solid #EEEEEE;
-	color: #007765;
-	text-shadow: 2px 1px #565656;
+	color: #EEEEEE;
+	text-shadow: 2px 1px #007765;
 	text-align: center;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 p {
 	color: #565656;
@@ -20,14 +20,17 @@ p {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+	top: 0px;
+	border-top: 1px solid #007765;
+	margin-top: 25px;
 	background-color: #EEEEEE;
 }
 #info {
 	width: 1000px;
-	z-index: 1;
 	background-color: #EEEEEE;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	border-top: 45px solid #EEEEEE;
 }
 #desc1 {
 	float: left;
@@ -50,6 +53,21 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
+}
+#program_icon {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+.bg-video {
+	width: 100%;
+	position: fixed;
+	background-repeat: no-repeat;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
 }
 #bio_header {
 	width: 150px;
@@ -76,7 +94,7 @@ p {
 	display: block;
 	font-family: 'Exo', serif;
 	font-size: 30px;
-	margin-top: 50px;
+	margin-top: 5px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -84,7 +102,33 @@ ul {
 	display: block;
 	list-style-type: none;
 	list-style-position: inside;
-	color: #565656
+	color: #565656;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+ 	transition:.5s;
+}
+a {
+	color: #565656;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+ 	transition:.5s;
+	text-decoration: none;
+}
+a:hover {
+	color: #007765;
+}
+a:visited {
+	color: #565656;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+ 	transition:.5s;
+	text-decoration: none;
 }
 #projects {
 	display: block;
@@ -95,29 +139,42 @@ ul {
 	margin-right: auto;
 }
 #project_list {
-	width: 700px;
 	display: block;
-	margin-left: 112px;
+	margin-left: -40px;
 }
-#contactinfo {
-	margin-top: 0px;
-	margin-left: 350px;
+#contact {
+	background-color: #121212;
+	color: #EEEEEE;
+	width: 100%;
+	height: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-top: 1px solid #007765;
+	border-bottom: 1px solid #007765;
+}
+#contact_info {
+	width: 300px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contact_info p {
+	color: #EEEEEE;
 }
 #email {
 	margin-left: 7px;
 }
-#headerimage {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: -1;
-}
-#facebook {
-	margin-left: 485px;
+.contact_icon {
 	margin-top: 20px;
 	margin-bottom: 10px;
+	margin-left: 35px;
+	display: inline;
 }
 #lineimg {
 	margin-top: 25px;
@@ -129,3 +186,16 @@ ul {
     filter: FlipV;
     -ms-filter: "FlipV";
 }
+#footer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+#footer p {
+	display: inline;
+	color: #EEEEEE;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
