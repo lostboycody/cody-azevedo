@@ -1,6 +1,7 @@
 body {
 	background-color: #007765;
 	color: #007765;
+	font-family: 'Lato', sans-serif;
 	cursor: default;
 	margin: 0px;
 	padding: 0px;
@@ -168,7 +169,6 @@ a:visited {
 	margin-top: 35px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
 	border-top: 1px solid #007765;
 	border-bottom: 1px solid #007765;
 }
@@ -205,6 +205,7 @@ a:visited {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
+	margin-top: 40px;
 	background-color: transparent;
 }
 #footer p {
