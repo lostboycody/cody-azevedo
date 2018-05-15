@@ -63,6 +63,7 @@ p {
 }
 .bg-video {
 	width: 100%;
+	min-width: 1000px;
 	position: fixed;
 	background-repeat: no-repeat;
 	top: 0px;
@@ -202,6 +203,7 @@ a:visited {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
+	background-color: transparent;
 }
 #footer p {
 	display: inline;
