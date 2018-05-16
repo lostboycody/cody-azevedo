@@ -25,7 +25,7 @@ p {
 	color: #565656;
 }
 #wrapper {
-	width: 100%;
+	width: device-width;
 	zoom: 1.0;
 	height: 100%;
 	z-index: 1;
@@ -93,7 +93,7 @@ p {
 }
 .bg-video {
 	width: 100%;
-	min-width: 1000px;
+	min-width: 800px;
 	position: fixed;
 	background-repeat: no-repeat;
 	top: 0px;
@@ -102,14 +102,12 @@ p {
 }
 .bg-video2 {
 	width: 100%;
+	min-width: 800px;
 	position: fixed;
 	background-repeat: no-repeat;
-	padding: 0px;
-	overflow: hidden;
-	top: 300px;
 	bottom: 0px;
 	left: 0px;
-	z-index: -1;
+	z-index: -2;
 }
 #bio_header {
 	width: 150px;
