@@ -306,5 +306,13 @@ and (max-device-width : 480px) {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 100px;
-}
+	}
+	#title {
+		font-family: 'Exo', serif;
+		font-size: 80px;
+		color: #EEEEEE;
+		text-shadow: 2px 1px #007765;
+		text-align: center;
+		margin-bottom: 50px;
+	}	
 }
