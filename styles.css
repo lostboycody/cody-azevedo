@@ -170,6 +170,9 @@ a:visited {
  	transition:.5s;
 	text-decoration: none;
 }
+a:visited:hover {
+	color: #007765;
+}
 #projects {
 	display: block;
 	font-family: 'Lato', sans-serif;
