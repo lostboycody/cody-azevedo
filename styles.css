@@ -169,11 +169,11 @@ a:hover {
 }
 a:visited {
 	color: #565656;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
- 	transition:.5s;
+	-o-transition:.25s;
+  	-ms-transition:.25s;
+  	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+ 	transition:.25s;
 	text-decoration: none;
 }
 a:visited:hover {
@@ -247,7 +247,7 @@ a:visited:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
-#contact_info p {
+#contact_info a {
 	color: #EEEEEE;
 }
 #email {
@@ -289,6 +289,9 @@ a:visited:hover {
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+}
+#contact_info a {
+	color: #EEEEEE;
 }
 
 #footer {
