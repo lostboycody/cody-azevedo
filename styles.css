@@ -269,6 +269,28 @@ a:visited:hover {
     filter: FlipV;
     -ms-filter: "FlipV";
 }
+#contact_info img {
+   opacity: 1.0;
+   filter: alpha(opacity=100);
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#contact_info:hover img {
+   opacity: 0.3;
+   filter: alpha(opacity=30);
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#contact_info img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
 #footer {
 	width: 200px;
 	margin-left: auto;
